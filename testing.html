@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Giphy Testing</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/Users/bijanbarikbin/upenn/homework/Week6/Testing/Assets/css/style.css">
+</head>
+
+<body>
+
+    <!--buttons will be loaded here to click on for giphs-->
+
+    <div id="buttons-view"> </div>
+
+
+    <!--setting up the form for the user to enter a topic and click add-->
+
+    <form id="giph-form">
+        <label>Search for a giph you like</label>
+        <input type="text" id="giph-input"><br>
+        <!-- Button triggers new topic to be added -->
+        <input id="add-giph" type="submit" class ="btn-info" value="Add Giph Button!">
+        <input id="reset" type="button" class ="btn-info" value="Reset Site!">
+        <input id="clear-giphs" type="button" class ="btn-info" value="Clear Giphs Below!">
+    </form>
+
+
+    <!--creating div to dump the giphs when a button is clicked-->
+    <div id="giphs-display"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/Users/bijanbarikbin/upenn/homework/Week6/Testing/Assets/Javascript/game.js"></script>
+    
+
+</body>
+
+</html>
